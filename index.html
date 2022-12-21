@@ -26,9 +26,9 @@
 <body>
     <header>
         <div class="container" id="nav-container">
-            <nav class="navbar navbar-expand-lg fixed-top">
+            <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
                 <a href="#" class="navbar-brand">
-                    <img id="logo" src="/imagens/logo.png" alt="logo_Gineceu">Gineceu Fotografia
+                    <img id="logo" src="/imagens/logo.png" alt="logo_Gineceu"><label>Gineceu Fotografia</label>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -102,7 +102,7 @@
                             <h3 class="main-title">SOBRE GINECEU FOTOGRAFIA</h3>
                         </div>
                         <div class="col-md-6">
-                            <img class="img-fluid" src="/imagens/MaluSorrindo.jpg" alt="FotografaMaisLinda">
+                            <img class="img-fluid" src="/imagens/MaluFotografa.jpg" alt="FotografaMaisLinda">
                         </div>
                         <div class="col-md-6">
                             <h3 class="about-title">Um pouquinho sobre a fundadora...</h3>
@@ -177,8 +177,77 @@
                     </div>
                 </div>
             </div>
+            <!--Portifólio-->
+            <div class="portifolio-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3 class="main-title">Conheça nossos Projetos</h3>
+                        </div>
+                        <div class="col-md-12" id="filter-btn-box">
+                            <button class="main-btn filter-btn active" id="all-btn">Todos</button>
+                            <button class="main-btn filter-btn" id="doc-btn">Parto Documental</button>
+                            <button class="main-btn filter-btn" id="ges-btn">Ensaio Gestante</button>
+                            <button class="main-btn filter-btn" id="lif-btn">Lifestyle</button>
+                        </div>
+                        <div class="col-md-4 project-box doc">
+                            <img src="/imagens/documental.jpg" class="img-fluid" alt="documental1">
+                        </div>
+                        <div class="col-md-4 project-box ges">
+                            <img src="/imagens/gestante.jpg" class="img-fluid" alt="gestante1">
+                        </div>
+                        <div class="col-md-4 project-box lif">
+                            <img src="/imagens/familia.jpg" class="img-fluid" alt="familia1">
+                        </div>
+                        <div class="col-md-4 project-box doc">
+                            <img src="/imagens/documental2.jpg" class="img-fluid" alt="documental2">
+                        </div>
+                        <div class="col-md-4 project-box ges">
+                            <img src="/imagens/gestante2.jpg" class="img-fluid" alt="gestante2">
+                        </div>
+                        <div class="col-md-4 project-box lif">
+                            <img src="/imagens/familia2.jpg" class="img-fluid" alt="familia2">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Orçamento-->
+            <div class="call-area">
+                <div class="container">
+                    <div class="row">
+                        <p id="tex4">Deseja fazer um orçamento sem compromisso?</p>
+                        <button class="main-btn" id="call-btn"><a href="https://web.whatsapp.com/send?phone=5577998601191" target="_blank"></a>Orçar</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
+    <!---Rodapé-->
+
+    <footer>
+        <div class="contac-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="main-title">Entre em Contato Conosco</h3>
+                    </div>
+                    <div class="col-md-4 contact-box">
+                        <i class="fas fa-phone"></i>
+                        <a href="https://web.whatsapp.com/send?phone=5577998601191" target="_blank"><span class="contact-title">Mande uma mensagem: </span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="copy-area">
+            <div class="container">
+                <div class="row"></div>
+                <div class="col-md-12">
+                    <p class="tex5">Desenvolvido por Ester Moura &copy; 2022</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!---Script-->
     <script src="/Script/script.js"></script>
 </body>
 </html>
