@@ -269,65 +269,18 @@ i {
 
 /* Responsive */
 
-@media(max-width: 768px){
+@media(min-width: 768px){
+    /* slider */
 
-    /* Geral */
-
-    .container {
-        padding: 20px 0;
+    #carousel-inner img{
+        margin-right: 30px;
     }
-
-    /* Slider */
-
-    #mainSlider .carousel-inner, #mainSlider .carousel-item {
-        height: auto;
-    }
-
-    #mainSlider .carousel-caption h2 {
-        font-size: 28px;
-
-    }
-
-    #mainSlider .carousel-caption p {
-        font-size: 18px;
-        margin-bottom: 40px;
-    }
-
-    .carousel-caption {
-        left: 10%;
-        right: 10%;
-    }
-
-    /* about */
-
-    #about-area img {
-        margin-left: 35px;
-    }
-
-    #about-area p {
-        margin-left: 10px;
-        margin-top: 10px;
-    }
-
-    /* Team */
-
-    #team-area .card-title p {
-        font-size: 14px;
-        
-    }
-
-    .card-text {
-        font-size: 12px;
-    }
-
-
-}
-
-@media(max-width: 425px){
-    /* Slider */
-
     #mainSlider {
-        margin-top: 90px;
+        margin-left: 90px;
+        margin-right: 90px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        
     }
 
     #mainSlider .carousel-caption {
@@ -341,32 +294,5 @@ i {
 
     #mainSlider .carousel-caption p {
         display: none;
-    }
-
-    .carousel-caption .main-btn {
-        font-size: 14px;
-    }
-
-    /* about */
-
-    .main-title {
-        font-size: 25px;
-    }
-
-    /* Team */
-
-    #team-area .col-md-3 {
-        width: 50%;
-        margin-bottom: 30px;
-    }
-
-    /* Filter */
-
-    #portifolio-area .filter-btn {
-        margin-bottom: 10px;
-    }
-
-    .project-box {
-        width: 100%;
     }
 }
