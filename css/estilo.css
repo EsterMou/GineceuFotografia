@@ -1,4 +1,10 @@
 /* Estilos Gerais */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 html {
     scroll-behavior: smooth;
 }
@@ -172,53 +178,84 @@ h4 {
     margin-bottom: 50px;
 }
 
-/* Time */
-
-.card-body {
-    text-align: center;
-    margin-left: 70px;
-}
-
-.row {
-    justify-content: center;
-}
-
-.card-text, .card-title{
-    color: black;
-    margin-left: 10px;
-    
-}
-
 /* Portifólio */
 
 .project-box {
     margin-bottom: 30px;
-}
-
-#filter-btn-box {
-    margin-bottom: 50px;
-    text-align: center;
-}
-
-#all-btn, #doc-btn, #ges-btn, #lif-btn {
-    color: black;
-    border: 1px solid black;
-    background-color: transparent;
-    text-transform: none;
-    margin: 0 15px;
-    min-width: 100px;
-    width: auto;
-    height: 40px;
-    line-height: 40px;
-    padding: 0 20px;
     
 }
 
-#portifolio-area .filter-btn.active, #portifolio-area .filter-btn:hover {
-    color: black;
-    background-color: transparent;
-    border-color: black;
+.row img{
+
+    text-align: center;
+    margin-left: 160px;
+    
+
 }
+
+
+
+/* Efeitos das imagens */
+.container {
+    display: grid;
+    place-items: center;
+}
+.hover-effect {
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+.overlay {
+    background-color: #292929;
+    width: 100%;
+    height: 96%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 17.5%;
+    display: block;
+    transition: all 0.3s ease-in-out;
+}
+
+.overlay {
+    opacity: 0;
+}
+
+.hover-effect:hover .overlay{
+    opacity: 1;
+}
+
+.btn-card-event{
+    font-family: 'Roboto';
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 300;
+    color: #FFF;
+    border: 1px solid #FFF;
+    padding: 16px 28px 16px 28px;
+    cursor: pointer;
+    transition: all 0.1s ease-out;
+    margin-right: 150px;
+    
+}
+
+.btn-card-event:hover {
+    background: #FFF;
+}
+
+.content h3 {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    color: #FFF;
+    margin-right: 150px;
+    margin-top: 200px;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+}
+
 
 /* call to action */
 
@@ -269,30 +306,3 @@ i {
 
 /* Responsive */
 
-@media(min-width: 768px){
-    /* slider */
-
-    #carousel-inner img{
-        margin-right: 30px;
-    }
-    #mainSlider {
-        margin-left: 90px;
-        margin-right: 90px;
-        margin-top: 50px;
-        margin-bottom: 30px;
-        
-    }
-
-    #mainSlider .carousel-caption {
-        top: 5%;
-    }
-
-    #mainSlider .carousel-caption h2 {
-        font-size: 18px;
-        margin-bottom: 40px;
-    }
-
-    #mainSlider .carousel-caption p {
-        display: none;
-    }
-}
