@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }
 html {
     scroll-behavior: smooth;
@@ -299,9 +300,33 @@ h4 {
     margin-top: 0;
     margin-bottom: 50px;
 }
-i {
-    color: #292929;
+.wpp-insta {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 500px;
+}
+
+#copy-area{
+    margin-bottom: 70px;
+}
+/* paginas dos albuns */
+
+.Album-title {
     
+    color: black;
+    margin: 30px 0 65px 0;
+    font-size: 40px;
+    border-bottom: 2px solid black;
+
+}
+
+.container p {
+    color: #292929;
+    margin-top: 10px;
+}
+
+.lista-fotos {
+    margin-right: 200px;
 }
 
 /* Responsive */
