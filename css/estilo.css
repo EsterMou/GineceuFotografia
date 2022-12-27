@@ -11,7 +11,7 @@ html {
 }
 
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', sans-serif;
     background-color: #FFF;
 }
 
@@ -139,7 +139,7 @@ h3 {
     left: 42.5%;
 }
 .text {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', sans-serif;
     color: black;
     text-align: center;
     margin-top: 100px;
@@ -208,7 +208,7 @@ h4 {
 }
 
 .overlay {
-    background-color: #292929;
+    background-color: #B0C4DE;
     width: 100%;
     height: 96%;
     position: absolute;
@@ -228,7 +228,8 @@ h4 {
 }
 
 .btn-card-event{
-    font-family: 'Roboto';
+    font-family: 'Roboto Mono';
+    text-decoration: none;
     font-size: 18px;
     text-decoration: none;
     font-weight: 300;
@@ -248,7 +249,7 @@ h4 {
 .content h3 {
     font-size: 24px;
     font-weight: 400;
-    font-family: 'Roboto';
+    font-family: 'Roboto Mono';
     text-transform: uppercase;
     color: #FFF;
     margin-right: 150px;
@@ -312,7 +313,7 @@ h4 {
 /* paginas dos albuns */
 
 .Album-title {
-    
+    font-family: 'Roboto Mono';
     color: black;
     margin: 30px 0 65px 0;
     font-size: 40px;
@@ -327,6 +328,28 @@ h4 {
 
 .lista-fotos {
     margin-right: 200px;
+}
+
+.main-btn-retorno  {
+    display: flex;
+    text-align: center;
+    margin-left: 550px;
+    margin-bottom: 15px;
+    background-color: #B0C4DE;
+    color: #FFF;
+    width: 150px;
+    height: 45px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 3px transparent;
+    transition: .5s;
+}
+
+.main-btn-retorno:hover {
+    text-decoration: none;
+    color: #B0C4DE;
+    background-color: transparent;
+    border-color: #B0C4DE;
 }
 
 /* Responsive */
