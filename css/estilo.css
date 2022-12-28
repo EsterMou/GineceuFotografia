@@ -251,7 +251,7 @@ h4 {
     font-weight: 400;
     font-family: 'Roboto Mono';
     text-transform: uppercase;
-    color: #292929;
+    color: #FFF;
     margin-right: 150px;
     margin-top: 200px;
     margin-bottom: 40px;
@@ -352,5 +352,16 @@ h4 {
     border-color: #B0C4DE;
 }
 
+
+/* Ensaio Gestante */
+
+#container .col{
+    margin-right: 300px;
+    
+   
+    
+   
+    
+}
 /* Responsive */
 
