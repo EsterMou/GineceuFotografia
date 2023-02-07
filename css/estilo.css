@@ -268,7 +268,7 @@ h4 {
 }
 .call-area {
     background-color: #B0C4DE;
-    margin-top: 300px;
+    margin-top: 90px;
 }
 #tex4 {
     color: #292929;
@@ -306,33 +306,6 @@ h4 {
     border-color: #FFF;
 }
 
-/* footer */
-
-.contac-area {
-    text-align: center;
-}
-
-.copy-area  {
-    background-color: #f1f1f1;
-    padding: 10px 0;
-    text-align: center;
-}
-
-.tex5 {
-    color: black;
-    text-align: center;
-    margin-top: 0;
-    margin-bottom: 50px;
-}
-.wpp-insta {
-    display: flex;
-    margin-top: 10px;
-    margin-left: 500px;
-}
-
-#copy-area{
-    margin-bottom: 70px;
-}
 /* paginas dos albuns */
 
 .Album-title {
@@ -428,5 +401,9 @@ h4 {
 .col-sm {
     margin: 0;
 }
+
+/* footer */
+
+
 /* Responsive */
 
