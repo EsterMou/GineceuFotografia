@@ -403,7 +403,27 @@ h4 {
 }
 
 /* footer */
+.rodape {
+    display: inline;
+    position: relative;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.rodape a {
+    color:#292929;
+    text-decoration: none;
+}
 
+.icon {
+    display: inline;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 20px;
+   
+}
+.texFinal {
+    font-size: 5px;
+}
 
 /* Responsive */
 
